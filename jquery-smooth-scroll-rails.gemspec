@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- encoding: mule-utf-8 -*-
 require File.expand_path('../lib/jquery-smooth-scroll-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = JquerySmoothScrollRails::VERSION
 
-  gem.add_dependency "railties", "~> 4.0"
+  gem.add_dependency "railties", "~> 5.0"
 end
